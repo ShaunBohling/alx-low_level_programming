@@ -23,4 +23,8 @@ char *leet(char *x)
 		}
 		a++;
 	}
+	return (x);
 }
+		
+	
+
