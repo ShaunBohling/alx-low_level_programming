@@ -2,7 +2,6 @@
 
 /**
  * _print_rev_recursion -> printing string in reverse using recursion
- * _putchar: parameter
  * @s: string s
  */
 void _print_rev_recursion(char *s)
@@ -12,5 +11,5 @@ void _print_rev_recursion(char *s)
 	s++;
 	_print_rev_recursion(s);
 	s--;
-	_putchar(*s)
+	_putchar(*s);
 }
