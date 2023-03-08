@@ -10,6 +10,7 @@ int _sqrt(int, int);
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
+}
 
 /**
  * _sqrt -> recursive square root
@@ -27,3 +28,4 @@ int _sqrt(int n, int i)
 		return (i);
 	return (_sqrt(n, i + 1));
 }
+
