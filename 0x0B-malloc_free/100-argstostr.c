@@ -16,7 +16,7 @@ char *argstostr(int ac, char **av)
 	while (a < ac)
 	{
 		b = 0;
-		while (av[a][b] != '\0)
+		while (av[a][b] != '\0')
 		{
 			count++;
 			b++;
